@@ -1,0 +1,34 @@
+config:
+  model: "KBlueLeaf/DanTagGen-gamma"
+  rating: "safe"
+  artist: ""
+  characters: ""
+  copyrights: ""
+  target: "long"
+  special_tags:
+    - "1girl"
+  general: ""
+  blacklist:
+    - ".*background"
+    - ".*text.*"
+    - ".*blurry.*"
+    - "comic"
+    - ".*manga.*"
+    - ".*magazine.*"
+    - ".*username.*"
+    - "artist name"
+  escape_bracket: true
+  temperature: 1.35
+  num_prompts: 100
+  output_file: "./output/1girl.json"
+  aspect_ratios:
+    - "1024 x 1024"
+    - "1152 x 896"
+    - "896 x 1152"
+    - "1216 x 832"
+    - "832 x 1216"
+    - "1344 x 768"
+    - "768 x 1344"
+    - "1536 x 640"
+    - "640 x 1536"
+  debug: true
