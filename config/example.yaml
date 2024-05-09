@@ -2,12 +2,12 @@ config:
   model: "KBlueLeaf/DanTagGen-gamma"
   rating: "safe"
   artist: ""
-  characters: ""
-  copyrights: ""
-  target: "long"
+  characters: "arima kana"
+  copyrights: "oshi no ko"
+  target: "short"
   special_tags:
     - "1girl"
-  general: ""
+  general: "solo, waving"
   blacklist:
     - ".*background"
     - ".*text.*"
@@ -19,8 +19,8 @@ config:
     - "artist name"
   escape_bracket: true
   temperature: 1.35
-  num_prompts: 100
-  output_file: "./output/1girl.json"
+  num_prompts: 10
+  output_file: "./output/example.json"
   aspect_ratios:
     - "1024 x 1024"
     - "1152 x 896"
